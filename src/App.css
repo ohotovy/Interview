@@ -1,0 +1,89 @@
+.App {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: olive;
+  font-size: 1.8rem;
+}
+.header-line {
+  width: 100%;
+  height: 0.05rem;
+  background-color: olive;
+}
+.first-list {
+  display: flex;
+  align-items: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.first-list_det {
+  width: 9%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.first-list_det > img {
+  width: 9rem;
+  height: 5rem;
+}
+.first-list_det > p {
+  width: 8rem;
+  height: 5rem;
+}
+.green-backgrond {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.red-backgrond {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.green-backgrond p:first-child {
+  font-weight: bold;
+}
+
+.red-backgrond p:first-child {
+  font-weight: bold;
+}
+.neutral {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.neutral p:first-child {
+  font-weight: bold;
+}
+
+.list-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.big-display-one {
+  border: 1px black solid;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.info p:first-child {
+  font-weight: bold;
+}
